@@ -19,23 +19,17 @@
     display: flex;
 }
 
-videoFooter-icon{
-    border:  1px solid green;
+.videoFooterMusic-text{
+    width: 80%;
+    overflow-x: hidden;
 
 }
 
-videoFooterMusic-text{
+.videoFooterMusic-text p{
+    animation: moveTheText 5s infinite linear;
     
 
 }
-
-videoFooterMusic-text p{
-    animation: moveTheText 3s infinite linear;
-    width: 100%;
-
-}
-
-
 
 .videoFooter-record{
     animation: spinTheRecord 3s infinite linear;
