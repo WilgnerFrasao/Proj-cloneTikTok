@@ -1,16 +1,15 @@
-html{
+html {
   scroll-snap-type: y mandatory;
-
 }
 
-.App{
+.App {
   background-color: black;
   height: 100vh;
   display: grid;
   place-items: center;
 }
 
-.app-videos{
+.app-videos {
   height: 100vh;
   max-width: 800px;
   width: 80%;
@@ -20,16 +19,22 @@ html{
   overflow: scroll;
   scroll-snap-type: y mandatory;
   position: relative;
-  
 }
 
 /*Esconde a scroll bar no chrome,safari e opera*/
-.app-videos::-webkit-scrollbar{
+.app-videos::-webkit-scrollbar {
   display: none;
 }
 
 /*Esconde a scroll bar no internet explorer,edge e firefox*/
-.app-videos{
+.app-videos {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@media only screen and(max-width:440px) {
+  .app-videos {
+    width: 100%;
+    height: 100vh;
+  }
 }

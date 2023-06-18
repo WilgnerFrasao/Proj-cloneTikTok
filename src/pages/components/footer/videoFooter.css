@@ -1,59 +1,63 @@
-.videoFooter{
-    position: relative;
-    bottom: 20%;
-    color: white;
-    margin-left: 30px; 
+.videoFooter {
+  position: relative;
+  bottom: 20%;
+  color: white;
+  margin-left: 30px;
 }
 
-.videoFooter-text h3{
-    padding-bottom: 20px;
-
+.videoFooter-text h3 {
+  padding-bottom: 20px;
 }
 
-.videoFooter-text p{
-    padding-bottom: 20px;
-    
+.videoFooter-text p {
+  padding-bottom: 20px;
 }
 
-.videoFooter-music{
-    display: flex;
+.videoFooter-music {
+  display: flex;
 }
 
-.videoFooterMusic-text{
-    width: 80%;
-    overflow-x: hidden;
-
+.videoFooterMusic-text {
+  width: 80%;
+  overflow-x: hidden;
 }
 
-.videoFooterMusic-text p{
-    animation: moveTheText 5s infinite linear;
-    
-
+.videoFooterMusic-text p {
+  animation: moveTheText 5s infinite linear;
 }
 
-.videoFooter-record{
-    animation: spinTheRecord 3s infinite linear;
-    position: absolute;
-    bottom: 5px;
-    right: 20px;
-    height: 50px;
-    filter: invert(1);
+.videoFooter-record {
+  animation: spinTheRecord 3s infinite linear;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  height: 50px;
+  filter: invert(1);
 }
 
-@keyframes spinTheRecord{
-    0%{ 
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+@keyframes spinTheRecord {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-@keyframes moveTheText{
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
+@keyframes moveTheText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media only screen and(max-width:440px) {
+  .videoFooter {
+    bottom: 22%;
+  }
+  .videoFooterMusic-text {
+    width: 78%;
+  }
 }
