@@ -3,9 +3,14 @@
 <br>
 Esse projeto imita a timeline do TikTok usando a tecnologia React e Banco de dados,nesse projeto foi usado o [Firebase](https://firebase.google.com/?hl=pt) para gerenciar cada elemento adicionado. Ao rolar sobre a time line,tanto os vídeos quantos os elementos mudam.
 <br><br>
-*Página um:*
+*Página inicial:*
 ![](./imagem-projeto/tiktok1.png)
 <br><br>
+Tecnologias utilizadas:
+<img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> HTML
+<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS
+<img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">JAVASCRIPT
+< src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
 
 
