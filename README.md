@@ -1,10 +1,11 @@
 # Projeto TikTok Clone
 --
 <br>
-Esse projeto imita a timeline do TikTok usando a tecnologia React e Banco de dados,nesse projeto foi usado o [Firebase](https://firebase.google.com/?hl=pt)para gerenciar cada elemento adicionado. Ao rolar sobre a time line,tanto os vídeos quantos os elementos mudam.
+Esse projeto imita a timeline do TikTok usando a tecnologia React e Banco de dados,nesse projeto foi usado o [Firebase](https://firebase.google.com/?hl=pt) para gerenciar cada elemento adicionado. Ao rolar sobre a time line,tanto os vídeos quantos os elementos mudam.
 <br><br>
-*Página um*:
-(./imagens-projeto/tiktok1.png)
+*Página um:*
+![](./imagens-projeto/tiktok1.png)
+<br><br>
 
 
 
