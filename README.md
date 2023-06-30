@@ -12,6 +12,9 @@ Tecnologias utilizadas:
 <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JAVASCRIPT
 <img align="center" alt="react" height="30" width="40"  
  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/> REACT
+ <br><br>
+ Para ver o projeto funcionado clique [AQUI](https://tiktok---jornada-f4ee7.web.app/)
+ 
           
 
           
